@@ -12,5 +12,11 @@
     .wave{
         position: relative;
         top: 1px;
+
+    }
+}
+@media(max-width:764px){
+    .wave{
+        top: 2px;
     }
 }
