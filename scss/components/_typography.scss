@@ -1,0 +1,52 @@
+@import '../custom';
+@import '../components/mixins';
+
+.display-2{
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    color: $white;
+    &--intro{
+        display: inline-block;
+        font-weight: 700;
+    }
+
+    &--description{
+        font-size: 1rem;
+        display: block;
+    }
+}
+
+.border-right{
+    border-right: 1px solid $gray-300;
+}
+
+
+
+@media (max-width: 764px){
+    .border-right{
+        border-right: 0;
+    }
+    .bottom-line{
+        width: 40%;
+        justify-self: center;
+        margin: auto;
+        height: 1.5px;
+        background-color: $gray-300;
+    }
+}
+
+.display-3{
+    font-family: 'Poppins', sans-serif;
+     
+    &--title{
+        font-size: 1.8rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        display: block;
+        background-image: $nav-gradient;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

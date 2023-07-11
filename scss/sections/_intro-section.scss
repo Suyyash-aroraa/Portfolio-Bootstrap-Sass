@@ -1,0 +1,12 @@
+@import '../custom';
+@import '../components/mixins';
+
+.intro-section{
+    background: $nav-gradient;
+    padding: 10rem 0 0 0 ;
+    width: 100%;
+    height: 100%;
+    img{
+        width: 100%;
+    }
+}

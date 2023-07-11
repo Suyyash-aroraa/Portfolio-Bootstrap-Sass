@@ -1,0 +1,37 @@
+@import '../custom';
+
+.icon{
+    display: flex !important;
+    object-fit: cover;
+    margin-right: 0;
+}
+
+.service>img{
+    width: 100%;
+    display: inline-block;
+    
+}
+
+.services{
+
+    .icon{
+        width: 2.5rem;
+        height: 2.5rem;
+        filter: invert(20%) sepia(60%) saturate(6533%) hue-rotate(271deg) brightness(97%) contrast(96%);
+    }
+
+    .icon-title{
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
+}
+
+.center-items{
+    height: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+}

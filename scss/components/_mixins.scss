@@ -1,0 +1,20 @@
+@import '../custom';
+
+$nav-gradient: linear-gradient(to right,$primary, $secondary);
+
+.line-seprate{
+    width: 8rem !important;
+    height: 2px;
+    background-color: $primary;
+    justify-self: center;
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 1rem;
+    .line-height{
+        height: 5px;
+        width: 4.5rem;
+        justify-self: center;
+        margin: auto;
+        background-color: $primary;
+    }
+}

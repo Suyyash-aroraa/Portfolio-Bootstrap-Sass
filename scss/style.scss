@@ -1,0 +1,26 @@
+@use "custom";
+
+//import componenets
+
+@use 'components/animation';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+// Use Sections
+
+@use 'sections/companies';
+@use 'sections/faq';
+@use 'sections/footer';
+@use 'sections/get-started';
+@use 'sections/intro-section';
+@use 'sections/navbar';
+@use 'sections/porstfolio';
+@use 'sections/services';
+@use 'sections/testimonials';
+
+// BG COLOR
+
+body{
+    background-color: #fff;
+}

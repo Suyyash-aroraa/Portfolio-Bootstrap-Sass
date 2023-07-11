@@ -1,0 +1,17 @@
+@import '../custom';
+@import '../components/mixins';
+
+.menu{
+    background: $nav-gradient;
+    a{
+        color: white !important;
+    }
+}
+
+@media (min-width: 995px) {
+    .menu{
+        ul{
+            align-items: center;
+        }
+    }
+}

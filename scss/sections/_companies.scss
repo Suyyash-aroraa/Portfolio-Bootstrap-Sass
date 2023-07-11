@@ -1,0 +1,21 @@
+.companies-img-list{
+    display: flex;
+    gap: 5%;
+    object-fit: contain;
+    width: 100%;
+    justify-content: center;
+    img{
+        width: 10%;
+    
+    }
+    
+}
+
+@media (max-width: 900px){
+    .companies-img-list{
+        img{
+            width: 20%;
+        }
+    }
+}
+
