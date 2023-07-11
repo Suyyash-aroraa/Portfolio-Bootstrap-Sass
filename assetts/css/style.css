@@ -95088,6 +95088,10 @@ section {
 .intro-section img {
   width: 100%;
 }
+.intro-section .wave {
+  position: relative;
+  top: 1px;
+}
 
 /*!
  * Bootstrap  v5.3.0 (https://getbootstrap.com/)
