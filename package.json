@@ -23,6 +23,7 @@
     "autoprefixer": "^10.4.14",
     "bootstrap": "^5.3.0",
     "fontawesome-free": "^1.0.4",
-    "fortawesome": "^0.0.1-security"
+    "fortawesome": "^0.0.1-security",
+    "polyfill-object.fromentries": "^1.0.1"
   }
 }
